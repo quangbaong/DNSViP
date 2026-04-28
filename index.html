@@ -360,7 +360,7 @@
     <div class="header">
         <div class="logo-ring">⚡</div>
         <div style="text-align:center">
-            <div class="title">DNS ViP</div>
+            <div class="title">DNS APPLE</div>
             <div class="subtitle">Bảo mật · Tốc độ · Riêng tư</div>
         </div>
     </div>
@@ -387,7 +387,7 @@
 
         <!-- Info text -->
         <div class="info-block">
-            <h2>Cài đặt Profile DNS ViP</h2>
+            <h2>Cài đặt Profile DNS</h2>
             <p>
                 File <span class="highlight">.mobileconfig</span> sẽ được tải về.<br>
                 Vào <strong style="color:#fff">Cài đặt → Đã tải về Profile</strong> để cài đặt, sau đó nhấn <span class="highlight">"Cài đặt"</span> và xác nhận tin cậy chứng chỉ.
@@ -401,7 +401,7 @@
                 <div class="step-num">1</div>
                 <div class="step-text">
                     <strong>Tải file</strong>
-                    <span>Nhấn nút bên dưới để tải <em>DNSViP.mobileconfig</em></span>
+                    <span>Nhấn nút bên dưới để tải <em>DNS.mobileconfig</em></span>
                 </div>
             </div>
             <div class="step">
@@ -429,10 +429,10 @@
 
         <!-- CTA -->
         <a id="downloadBtn"
-           href="DNSViP.mobileconfig"
+           href="dns-apple.mobileconfig"
            class="cta-btn">
             <i class="fa-solid fa-arrow-down-to-line"></i>
-            TẢI PROFILE DNSViP.mobileconfig
+            TẢI PROFILE DNS
         </a>
 
         <p class="helper-text">Nếu không tự động tải, hãy nhấn vào nút trên</p>
@@ -457,7 +457,7 @@
     <!-- Footer -->
     <div class="footer">
         <span>Được thiết kế bởi BANNEI · 2026</span>
-        <a href="https://github.com/Bannei19/DNSViP" target="_blank">
+        <a href="https://github.com/quangbaong/DNSViP/index.html" target="_blank">
             <i class="fa-brands fa-github"></i> Xem mã nguồn
         </a>
     </div>
@@ -479,8 +479,8 @@
     // Auto-download
     setTimeout(() => {
         const a = document.createElement('a');
-        a.href = "https://github.com/quangbaong/DNSViP/raw/refs/heads/main/DNSViP.mobileconfig";
-        a.download = "DNSViP.mobileconfig";
+        a.href = "dns-apple.mobileconfig";  
+        a.download = "dns-apple.mobileconfig";
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
