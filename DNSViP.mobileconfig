@@ -14,13 +14,35 @@
                 <string>https://gotmmm9atx.cloudflare-gateway.com/dns-query</string>
                 <key>SupplementalMatchDomains</key>
                 <array>
+                    <!-- OCSP / Certificate Validation -->
                     <string>ocsp.apple.com</string>
                     <string>ocsp2.apple.com</string>
                     <string>valid.apple.com</string>
+
+                    <!-- CRL / Certificate Revocation -->
                     <string>crl.apple.com</string>
+                    <string>crl3.digicert.com</string>
+                    <string>crl4.digicert.com</string>
+                    <string>crl.entrust.net</string>
+
+                    <!-- Certificate Authorities used by Apple -->
                     <string>certs.apple.com</string>
+                    <string>ocsp.digicert.com</string>
+                    <string>ocsp.entrust.net</string>
+                    <string>ocsp.comodoca.com</string>
+                    <string>ocsp.sectigo.com</string>
+
+                    <!-- App Attestation & Trust Services -->
                     <string>appattest.apple.com</string>
+                    <string>devicecheck.apple.com</string>
+
+                    <!-- VPP / MDM cert-related -->
                     <string>vpp.itunes.apple.com</string>
+                    <string>mdmenrollment.apple.com</string>
+
+                    <!-- PKI / Trust Store Updates -->
+                    <string>pki.apple.com</string>
+                    <string>certs.digicert.com</string>
                 </array>
             </dict>
             <key>OnDemandRules</key>
@@ -44,7 +66,6 @@
             <integer>1</integer>
         </dict>
     </array>
-
     <key>PayloadDescription</key>
     <string>DNS Profile</string>
     <key>PayloadDisplayName</key>
